@@ -62,7 +62,7 @@ function serve()
 
   }
     else{
-     project.question("what do u want to do\n press e to exit,any other key to continue....",
+     project.question("press e to exit or any other key to continue",
      (choice)=>{
        console.log(`you selected ${choice}`)
     if(choice.toLowerCase()!="e")
